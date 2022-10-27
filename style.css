@@ -1,0 +1,119 @@
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-size: 1.5em;
+	font-family: Arial;
+}
+
+body{
+	height: auto;
+	width: 100%;
+	background: #e5e5e5;
+	margin: 0;
+}
+
+.page{
+	height: auto;
+	font-size: 1.1em;
+	line-height: 33px;
+	margin: 0 auto;
+	max-width: 1440px;
+	min-width: 500px;
+}
+
+.page-wrapper{
+	height: 100%;
+	padding: 0 140px;
+	background: #fff;
+	overflow-y: auto;
+}
+
+.page-wrapper{
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page-wrapper > div{
+	width: 100%;
+}
+
+img{
+	width: 100%;
+	border-radius: 17px;
+	align-self: center;
+	height: 12em;
+	object-fit: cover;
+	margin: 0;
+}
+
+.image{
+	display: flex;
+	justify-content: center;
+}
+
+.filling{
+	display: flex;
+	justify-content: center;
+
+}
+
+.image-dif{
+	width: 40%;
+	height: 100%;
+}
+
+#img{
+	height: 100%;
+	width: 100%;
+}
+
+@media(max-width: 1350px){
+
+	.filling{
+		display: block;
+	}
+
+	#img{
+		position: absolute;
+		visibility: hidden;
+	}
+
+	.text{
+		width: 100% !important;
+		margin: 0 !important;
+	}
+}
+
+@media(max-width: 850px){
+	.page-wrapper{
+		padding: 0 15px;
+	}
+}
+
+.text{
+	width: 70%;
+	margin-right: 4%;
+	float: left;
+}
+
+h1{
+	font-style: normal;
+	font-weight: 550;
+	font-size: 3em;
+	line-height: 1.5em;
+	/* or 125% */
+	
+	text-align: justify;
+	margin-top: 0.4em;
+	margin-bottom: 0.2em;
+}
+
+h2{
+	font-style: normal;
+	font-size: 1.5em;
+	line-height: 125%;	
+	text-align: justify;
+}
